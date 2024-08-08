@@ -6,7 +6,7 @@
 ## mot
 BotSORT
 ## reid
-访问https://github.com/mikel-brostrom/boxmot/blob/master/boxmot/appearance/reid_model_factory.py下载  
+访问https://github.com/mikel-brostrom/boxmot/blob/master/boxmot/appearance/reid_model_factory.py
 ## reid后端
 onnxruntime-cpu, openvino, torch
 ## Strack
