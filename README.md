@@ -13,7 +13,7 @@ onnxruntime-cpu, openvino, torch
 Strack部分添加了开始时间start_ts以及结束时间end_ts以及存在的时间统计属性track_ts  
 类型更新函数update_cls改动  
 ## BoTSORT
-可以像原版正常使用，如果想使用Strack的track_ts属性，需要在update函数中传入ts参数ts为单位为秒类型为浮点数的时间戳
+可以像原版正常使用，如果想使用Strack的track_ts属性，需要在update函数中传入ts参数ts为单位为秒类型为浮点数的时间戳  
 def update(self, dets: np.ndarray, img: np.ndarray, embs: np.ndarray = None, ts: float = 0) -> np.ndarray:
 
 ## 最后
